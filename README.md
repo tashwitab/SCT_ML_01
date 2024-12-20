@@ -1,8 +1,8 @@
-House Price Predictor
+# House Price Predictor
 
 This project is a machine learning model implemented in Python that predicts house prices based on key features like square footage, number of bedrooms, and bathrooms. The prediction is powered by a linear regression model, and the application includes an interactive command-line interface for user input.
 
-Features
+**Features**
 
 Linear Regression Model: A simple yet effective regression model to predict house prices.
 
@@ -10,10 +10,11 @@ Interactive User Input: Users can input house details like square footage, bedro
 
 Data Visualization: Includes plots for residual analysis, predicted vs actual prices, and feature importance.
 
-Usage
+**Usage**
+
 Ensure the dataset (train.csv) is available in the project directory. This dataset should contain columns like GrLivArea, BedroomAbvGr, FullBath, and SalePrice.
 
-Run the script:
+**Run the script:**
 
 python house_price_predictor.py
 
@@ -27,7 +28,7 @@ Enter the number of bathrooms (e.g., 2)
 
 The predicted house price will be displayed.
 
-Visualization
+## Visualization
 
 The project includes code for:
 
@@ -37,7 +38,7 @@ Prediction vs Actual Plot: Shows how well the predicted prices match actual pric
 
 Feature Importance: Displays the contribution of each feature in the model.
 
-Acknowledgments
+## Acknowledgments
 
 The dataset used in this project was sourced from Kaggle.
 
